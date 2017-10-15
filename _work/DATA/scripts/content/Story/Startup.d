@@ -1,5 +1,7 @@
 FUNC VOID INIT_GLOBAL() {
 	LeGo_Init(LeGo_All);
+	
+	Spine_Init(SPINE_ALL);
 };
 
 func VOID STARTUP_SUB_PSICAMP ()
