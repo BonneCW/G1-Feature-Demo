@@ -1,3 +1,7 @@
+FUNC VOID INIT_GLOBAL() {
+	LeGo_Init(LeGo_All);
+};
+
 func VOID STARTUP_SUB_PSICAMP ()
 {
 	//-----------OLD MINE-----------------------------------------
@@ -2266,6 +2270,8 @@ func VOID INIT_SURFACE ()
 //-------- eigentliche Startup des Spiels --------
 FUNC VOID INIT_WORLD ()
 {
+	INIT_GLOBAL();
+	
 	INIT_Sub_Newcamp		();
 	INIT_Sub_Oldcamp		();
 	INIT_Sub_Psicamp		();
@@ -2359,6 +2365,8 @@ FUNC VOID STARTUP_ORCGRAVEYARD ()
 
 FUNC VOID INIT_ORCGRAVEYARD ()
 {
+	INIT_GLOBAL();
+	
 	Wld_SetMobRoutine 	(00,00, "FIREPLACE", 1);
 
 	//-------- Attitüden initialisieren --------
@@ -2502,6 +2510,8 @@ FUNC VOID STARTUP_ORCTEMPEL ()
 
 FUNC VOID INIT_ORCTEMPEL ()
 {
+	INIT_GLOBAL();
+	
 	//-------- Objekt-TAs --------
 	Wld_SetMobRoutine (00,00, "FIREPLACE", 1);
 
@@ -2634,6 +2644,8 @@ FUNC VOID STARTUP_OLDMINE ()
 
 FUNC VOID INIT_OLDMINE ()
 {
+	INIT_GLOBAL();
+	
 	Wld_SetMobRoutine (00,00, "FIREPLACE", 1);
 
 	//-------- Attitüden initialisieren --------
@@ -2714,6 +2726,8 @@ FUNC VOID STARTUP_FREEMINE ()
 
 FUNC VOID INIT_FREEMINE ()	
 {
+	INIT_GLOBAL();
+	
 	//-------------------Fackeln-----------------------------
 	Wld_SetMobRoutine			(00,00, "FIREPLACE", 1);
 
