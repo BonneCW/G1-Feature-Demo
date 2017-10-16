@@ -141,7 +141,6 @@ func void StoryHelper_CorKalom_BringMCQBalls_RUNNING()
 	YBerion_BringFocus 		= LOG_SUCCESS;
 
 	//-------- was neu geschieht --------	
-	GUR_1201_CorKalom_WEG_ACCEPT();				// Log-Entry anlegen!
 	CorKalom_BringMCQBalls 	= LOG_RUNNING;
 
 	//-------- Menü --------	

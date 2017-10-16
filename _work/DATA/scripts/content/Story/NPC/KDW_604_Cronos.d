@@ -36,9 +36,6 @@ instance KDW_604_Cronos (Npc_Default)
 	//-------- Spells --------        
 	CreateInvItem 		(self, ItArRuneIceCube);
 	CreateInvItem 		(self, ItArRuneThunderbolt);
-
-	//-------- inventory --------                                    
-	B_Give_CronosChapter1Runes ();
 	//-------------Daily Routine-------------
 	daily_routine = Rtn_start_604;
 };

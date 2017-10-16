@@ -8,16 +8,7 @@ FUNC int MC_OLDMINE_ASGHAN ()
 {	
 	PrintDebugNpc	(PD_ITEM_MOBSI,	"MC_OLDMINE_ASGHAN");
 
-	if (Npc_KnowsInfo(hero,Grd_263_Asghan_OPEN_NOW) && _STR_MESSAGE_WHEEL_STUCKS_AGAIN==0)
-	{
-		_STR_MESSAGE_WHEEL_STUCKS_AGAIN=1;
-		return TRUE;
-	}
-	else
-	{
-		G_PrintScreen	(_STR_MESSAGE_WHEEL_STUCKS);
-		return FALSE;
-	};
+	return FALSE;
 };
 
 //***************************************************************************

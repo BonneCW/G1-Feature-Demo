@@ -38,9 +38,6 @@ instance KDF_405_Torrez (Npc_Default)
 	//-------- Spells--------                                    
 	EquipItem (self, ItArRuneFireball);
 	CreateInvItem	(self,ItMi_Stuff_OldCoin_02);	
-	
-	//-------- inventory --------        // HÄNDLER FÜR KDF                             
-	B_Give_TorrezChapter1Runes ();
 
 	//-------------Daily Routine-------------
 

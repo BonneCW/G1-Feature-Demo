@@ -105,9 +105,6 @@ FUNC void ZS_Talk ()
 	{
 		B_ReactToMemory ();
 	};
-		
-	//AMBIENT INFOS
-	B_AssignAmbientInfos(self);
 	
 	// Kenne SC (wird für FindNSC-Infos gebraucht)
 	self.aivar[AIV_FINDABLE] = TRUE; 

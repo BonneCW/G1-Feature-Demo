@@ -37,7 +37,6 @@ instance STT_336_Cavalorn (Npc_Default)
 	Npc_SetTalentSkill (self, NPC_TALENT_SNEAK, 1);
 		
 	//-------- inventory --------
-	B_Give_CavalornChapter1Weapons ();
 	EquipItem	(self,ItMw_1H_Sword_Short_02);
 	EquipItem	(self, ItRw_Bow_Small_02);
 	CreateInvItems	(self, ItAmArrow, 16);

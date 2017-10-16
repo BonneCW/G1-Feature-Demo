@@ -39,9 +39,7 @@ instance ORG_843_Sharky (Npc_Default)
 	
 				
 	
-	//-------- inventory --------   
-		
-	B_Give_SharkyChapter1Weapons ();                                 
+	//-------- inventory --------                                
 	
 	CreateInvItems (self, ItKeLockpick,15);		
 	CreateInvItems(self,  ItMiNugget, 50);

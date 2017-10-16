@@ -33,7 +33,6 @@ instance GUR_1208_BaalCadar (Npc_Default)
 	//-------- inventory --------
 	CreateInvItem(self, ItArRuneWindfist);
 
-	B_Give_BaalCadarChapter1Runes ();
 	fight_tactic	=	FAI_HUMAN_MAGE;
 	
 	//-------------Daily Routine-------------

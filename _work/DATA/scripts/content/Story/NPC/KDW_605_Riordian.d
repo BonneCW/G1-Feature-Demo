@@ -35,11 +35,7 @@ instance KDW_605_Riordian (Npc_Default)
 	
 	
 	//-------- Spells --------
-	CreateInvItem (self,ItArRuneThunderball);
-			
-	//-------- inventory --------                                    
-	B_GiveRiordianChapter1Potions ();
-	
+	CreateInvItem (self,ItArRuneThunderball);	
 
 	//------------- ai -------------
 	daily_routine = Rtn_start_605;

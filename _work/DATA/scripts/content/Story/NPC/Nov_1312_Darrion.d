@@ -31,11 +31,7 @@ instance NOV_1312_Darrion (Npc_Default)
 
 	//-------- Talente --------
 		
-	Npc_SetTalentSkill (self, NPC_TALENT_1H,1);			
-	
-	//-------- inventory --------
-	
-		B_Give_DarrionChapter1Weapons ();
+	Npc_SetTalentSkill (self, NPC_TALENT_1H,1);
 		
 	EquipItem (self, ItMw_1H_Axe_Old_01);
 	

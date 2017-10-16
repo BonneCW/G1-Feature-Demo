@@ -34,9 +34,6 @@ instance STT_311_Fisk (Npc_Default)
 	//-------- Talente -------- 
 	Npc_SetTalentSkill (self, NPC_TALENT_1H,2);	
 		
-	//-------- inventory --------
-	B_Give_FiskChapter1Weapons ();
-		
 	//EquipItem	(self, ItMw_1H_Sword_Short_04);
 	CreateInvItems (self, ItKeLockpick,10);
 	
